@@ -1,36 +1,60 @@
-# 🚀 Ahmed Hossam | Personal Portfolio
+# Ahmed Hossam — Portfolio
 
-Welcome to the repository of my personal portfolio website. This project is a visually stunning, highly interactive, and fully responsive showcase of my journey, technical skills, and complex web applications as a Full-Stack Web Developer.
+A world-class premium portfolio built with React, Vite, Tailwind CSS, and Framer Motion.
 
----
+## Getting Started
 
-## ✨ Features
+```bash
+npm install
+npm run dev
+```
 
-*   **Dynamic UI/UX:** Built with a modern, clean aesthetics utilizing a seamless grid layout and interactive components.
-*   **Fluid Animations:** Smooth transitions and engaging scroll animations powered by Framer Motion.
-*   **Detailed Case Studies:** In-depth breakdown of complex projects, architectures, and database relations (e.g., E-shopper).
-*   **Live GitHub Integration:** Dynamically pulling and featuring top repositories.
-*   **Fully Responsive:** Optimized for an immaculate experience across all screen sizes (Desktop, Tablet, Mobile).
-*   **Contact System:** A fully functional, styled contact and inquiry form.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
----
+## Other Commands
 
-## 🛠️ Tools of the Trade (Tech Stack)
+```bash
+npm run build     # Production build → dist/
+npm run preview   # Preview production build locally
+npm run typecheck # TypeScript type checking
+```
 
-### 💻 Frontend
-*   **Core:** React, JavaScript (ES6+)
-*   **Styling:** Tailwind CSS (with custom grid backgrounds and utilities)
-*   **Animations:** Framer Motion
-*   **Tools:** Git, GitHub API
+## Customization
 
----
+All portfolio content lives in one file:
 
-## 📂 Project Structure Highlights
+```
+src/config/portfolioConfig.ts
+```
 
-the portfolio includes:
-*   **Hero Section:** High-impact introduction with an "Available for Internship" status.
-*   **About & Metrics:** A quick look into my development philosophy and key stats.
-*   **Case Studies:** Detailed breakdowns of production-ready applications like **E-shopper**.
-*   **Professional Experience & Learning Journey:** A timeline tracking my professional growth and ongoing education.
+Edit that file to update your name, bio, projects, skills, experience, social links, and everything else. No other files need to change.
 
----
+## EmailJS Setup
+
+To enable the contact form:
+
+1. Create a free account at [emailjs.com](https://www.emailjs.com)
+2. Create a service and email template
+3. Open `src/config/portfolioConfig.ts`
+4. Update the `emailjs` section:
+
+```ts
+emailjs: {
+  serviceId: "your_service_id",
+  templateId: "your_template_id",
+  publicKey: "your_public_key",
+}
+```
+
+## Tech Stack
+
+- React 19 + TypeScript
+- Vite 7
+- Tailwind CSS v4
+- Framer Motion
+- React Icons
+- shadcn/ui components
+- EmailJS
+- Sonner (toast notifications)
+- Wouter (routing)
+- TanStack Query
