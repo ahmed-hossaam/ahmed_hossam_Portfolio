@@ -32,7 +32,7 @@ function PortfolioApp() {
         <About />
         <Skills />
         <Projects />
-        <GithubRepos />
+        {/* <GithubRepos /> */}
         <Experience />
         <LearningJourney />
         <CurrentFocus />
