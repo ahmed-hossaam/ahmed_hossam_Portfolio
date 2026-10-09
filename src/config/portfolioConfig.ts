@@ -86,39 +86,40 @@ export const portfolioConfig = {
       techStack: ["React", "Laravel", "MySQL", "Tailwind CSS"],
       keyFeatures: ["Real-time inventory", "Secure payment gateway integration", "Admin dashboard", "Responsive design"],
       githubLink: "https://github.com/ahmed-hossaam/e-shopper",
-      liveDemo: "#", // Placeholder
+      liveDemo: "https://e-shopper25.byethost22.com/index.php",
       image: "/images/project-placeholder-1.png"
     },
-    {
+   {
       id: "moshafak",
       title: "Moshafak",
-      description: "An innovative web application addressing specific user pain points with real-time data processing and intuitive UI.",
-      problem: "Users struggled with complex workflows in existing solutions, leading to high drop-off rates.",
-      solution: "Designed a streamlined, single-page application using modern JavaScript frameworks to reduce friction and improve task completion speed.",
-      techStack: ["Node.js", "React", "Express", "MongoDB"],
-      keyFeatures: ["Real-time updates", "Intuitive workflow", "User analytics", "High performance"],
-      githubLink: "https://github.com/ahmed-hossaam/moshafak",
-      liveDemo: "#", // Placeholder
+      description: "An Islamic web application that provides easy access to the Holy Quran, Hadiths, Duas, Azkar, and prayer times through a clean, responsive, and user-friendly interface.",
+      problem: "Accessing essential Islamic content across different platforms can be inconvenient, while unreliable external APIs may prevent users from accessing content when needed.",
+      solution: "Developed an Islamic web application that brings essential religious content together in one place, focusing on intuitive navigation, responsive design, and a smooth user experience.",
+      techStack: ["React", "TypeScript", "Tailwind CSS"],
+      keyFeatures: ["Holy Quran and Islamic content","Hadiths, Duas, and Azkar","Prayer times","Responsive user interface","Intuitive navigation and user experience"],
+      githubLink: "https://github.com/ahmed-hossaam/moshafakk",
+      liveDemo: "https://moshafk-two.vercel.app/",
       image: "/images/project-placeholder-2.png"
-    },
-    {
-      id: "task-manager",
-      title: "TaskFlow Pro",
-      description: "A productivity tool for teams to manage tasks, track progress, and collaborate effectively.",
-      problem: "Teams needed a lightweight yet powerful tool for daily task management without the bloat of enterprise software.",
-      solution: "Built a highly responsive React frontend with a scalable Node.js/Express REST API.",
-      techStack: ["React", "Node.js", "PostgreSQL", "Tailwind CSS"],
-      keyFeatures: ["Drag-and-drop boards", "Team collaboration", "Role-based access", "Activity logging"],
-      githubLink: "https://github.com/ahmed-hossaam",
-      liveDemo: "#",
+      },
+      {
+      id: "E-shopper-admin",
+      title: "E-Shopper | Admin Dashboard",
+      description: "An administrative dashboard for an e-commerce platform, designed to simplify store management through a centralized interface for managing products, orders, and other essential store operations.",
+      problem: "Managing an online store requires an organized way to oversee products, orders, and operational tasks without navigating multiple disconnected interfaces.",
+      solution: "Developed an admin dashboard that centralizes essential e-commerce management operations in an organized interface, aiming to improve usability and simplify store administration.",
+      techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      keyFeatures: ["Admin authentication","E-commerce management interface","Organized administrative navigation","Product and order management","Centralized store administration"],
+      githubLink: "#",
+      liveDemo: "https://e-shopper25.byethost22.com/Admin/login.php",
       image: "/images/project-placeholder-3.png"
-    }
+      }
+
   ],
   experience: [
     {
-      role: "Frontend Developer Intern (Expected)",
+      role: "Frontend Developer Intern",
       company: "FlyRank AI",
-      duration: "Upcoming",
+      duration: "1 Month",
       description: "Working with React.js and Tailwind CSS, collaborating with development teams to build scalable, high-performance user experiences for AI-driven applications."
     },
     {
