@@ -78,18 +78,25 @@ export const portfolioConfig = {
   },
   projects: [
     {
-      id: "e-shopper",
-      title: "E-Shopper",
-      description: "A comprehensive e-commerce platform with robust inventory management, secure checkout, and a seamless user experience.",
-      problem: "Needed a scalable solution to handle thousands of products with complex variations and real-time inventory tracking.",
-      solution: "Implemented a Laravel backend for robust data handling paired with a responsive React frontend for optimal user engagement.",
-      techStack: ["React", "Laravel", "MySQL", "Tailwind CSS"],
-      keyFeatures: ["Real-time inventory", "Secure payment gateway integration", "Admin dashboard", "Responsive design"],
-      githubLink: "https://github.com/ahmed-hossaam/e-shopper",
-      liveDemo: "https://e-shopper25.byethost22.com/index.php",
-      image: "/images/project-placeholder-1.png"
-    },
-   {
+  id: "mizan",
+  title: "Mizan",
+  description: "A private expense tracker for managing income, spending, monthly budgets, and category analysis in Egyptian pounds (EGP), with CSV export and secure per-account data.",
+  problem: "Tracking personal finances with scattered notes or spreadsheets makes it hard to see where money goes, stay within a monthly budget, and keep financial data private.",
+  solution: "Built a full-stack expense tracker where each user signs in securely and manages their own income and expenses, sets monthly budgets, analyzes spending by category, and exports records to CSV. Data access is scoped to the authenticated account on the API side.",
+  techStack: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Drizzle ORM", "Supabase Auth", "Vite", "Vercel"],
+  keyFeatures: [
+    "Income and expense tracking in EGP",
+    "Monthly budgets",
+    "Category-based spending analysis",
+    "CSV export",
+    "Secure authentication with Supabase Auth",
+    "Per-account data isolation enforced by the API"
+  ],
+  githubLink: "https://github.com/ahmed-hossaam/mizan",
+  liveDemo: "mizan-phi-nine.vercel.app",
+  image: "/images/project-placeholder-1.png"
+},
+       {
       id: "moshafak",
       title: "Moshafak",
       description: "An Islamic web application that provides easy access to the Holy Quran, Hadiths, Duas, Azkar, and prayer times through a clean, responsive, and user-friendly interface.",
@@ -101,18 +108,50 @@ export const portfolioConfig = {
       liveDemo: "https://moshafk-two.vercel.app/",
       image: "/images/project-placeholder-2.png"
       },
-      {
-      id: "E-shopper-admin",
-      title: "E-Shopper | Admin Dashboard",
-      description: "An administrative dashboard for an e-commerce platform, designed to simplify store management through a centralized interface for managing products, orders, and other essential store operations.",
-      problem: "Managing an online store requires an organized way to oversee products, orders, and operational tasks without navigating multiple disconnected interfaces.",
-      solution: "Developed an admin dashboard that centralizes essential e-commerce management operations in an organized interface, aiming to improve usability and simplify store administration.",
-      techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-      keyFeatures: ["Admin authentication","E-commerce management interface","Organized administrative navigation","Product and order management","Centralized store administration"],
-      githubLink: "#",
-      liveDemo: "https://e-shopper25.byethost22.com/Admin/login.php",
-      image: "/images/project-placeholder-3.png"
-      }
+    {
+  id: "clinic-booking",
+  title: "Clinic Appointment Booking System",
+  description: "A full-stack appointment booking platform where patients browse doctors, book available time slots, and manage their appointments, while admins confirm or cancel bookings from a dedicated dashboard.",
+  problem: "Booking clinic appointments by phone or in person leads to scheduling conflicts, double bookings, and extra manual work for clinic staff.",
+  solution: "Built a full-stack booking system with doctor availability, patient self-service booking and cancellation, and an admin panel for managing appointments. Double bookings are prevented at the database level with a partial unique index on active slots, and sessions are secured with JWT in HTTP-only cookies.",
+  techStack: ["React", "TypeScript", "Vite", "Tailwind CSS", "React Router", "Node.js", "Express", "PostgreSQL", "Drizzle ORM", "Zod", "JWT"],
+  keyFeatures: [
+    "Patient signup and secure login (JWT in HTTP-only cookies, bcrypt-hashed passwords)",
+    "Browse doctors and filter by specialty",
+    "Real-time doctor availability and slot booking",
+    "Patient appointment history and cancellation",
+    "Admin dashboard to confirm or cancel appointments and filter by status",
+    "Double-booking prevention enforced at the database level"
+  ],
+  githubLink: "https://github.com/ahmed-hossaam/clinic-booking",
+  liveDemo: "https://clinic-booking-hub--ah2573079.replit.app/",
+  image: "/images/project-placeholder-3.png"
+},
+    {
+      id: "e-shopper",
+      title: "E-Shopper",
+      description: "A comprehensive e-commerce platform with robust inventory management, secure checkout, and a seamless user experience.",
+      problem: "Needed a scalable solution to handle thousands of products with complex variations and real-time inventory tracking.",
+      solution: "Implemented a Laravel backend for robust data handling paired with a responsive React frontend for optimal user engagement.",
+      techStack: ["React", "Laravel", "MySQL", "Tailwind CSS"],
+      keyFeatures: ["Real-time inventory", "Secure payment gateway integration", "Admin dashboard", "Responsive design"],
+      githubLink: "https://github.com/ahmed-hossaam/e-shopper",
+      liveDemo: "https://e-shopper25.byethost22.com/index.php",
+      image: "/images/project-placeholder-4.png"
+    },
+
+      // {
+      // id: "E-shopper-admin",
+      // title: "E-Shopper | Admin Dashboard",
+      // description: "An administrative dashboard for an e-commerce platform, designed to simplify store management through a centralized interface for managing products, orders, and other essential store operations.",
+      // problem: "Managing an online store requires an organized way to oversee products, orders, and operational tasks without navigating multiple disconnected interfaces.",
+      // solution: "Developed an admin dashboard that centralizes essential e-commerce management operations in an organized interface, aiming to improve usability and simplify store administration.",
+      // techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      // keyFeatures: ["Admin authentication","E-commerce management interface","Organized administrative navigation","Product and order management","Centralized store administration"],
+      // githubLink: "#",
+      // liveDemo: "https://e-shopper25.byethost22.com/Admin/login.php",
+      // image: "/images/project-placeholder-5.png"
+      // }
 
   ],
   experience: [
