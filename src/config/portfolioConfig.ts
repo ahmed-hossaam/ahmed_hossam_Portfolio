@@ -93,7 +93,7 @@ export const portfolioConfig = {
     "Per-account data isolation enforced by the API"
   ],
   githubLink: "https://github.com/ahmed-hossaam/mizan",
-  liveDemo: "mizan-phi-nine.vercel.app",
+  liveDemo: "https://mizan-phi-nine.vercel.app/",
   image: "/images/project-placeholder-1.png"
 },
        {
