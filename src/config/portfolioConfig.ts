@@ -25,20 +25,21 @@ export const portfolioConfig = {
     trainingPrograms: 3,
     graduationYear: 2026,
   },
-  about: {
-    story: [
-      "I am a passionate Full Stack Web Developer currently completing my Applied Technology Diploma at WE School for Applied Technology.",
-      "My journey is driven by a deep curiosity for how things work under the hood. From building scalable backend architectures with Laravel and Node.js to crafting precise, responsive user interfaces with React, I thrive at the intersection of design and logic.",
-      "With hands-on experience in telecommunications infrastructure and entrepreneurship, I bring a holistic problem-solving mindset to every technical challenge. I am committed to continuous learning, growth, and building tools that make a meaningful impact."
-    ],
-    details: [
-      { label: "Name", value: "Ahmed Hossam" },
-      { label: "School", value: "WE School for Applied Technology" },
-      { label: "Diploma", value: "Applied Technology, Full-Stack Web Dev" },
-      { label: "Curriculum", value: "HTML, CSS, JS, React, PHP, Laravel, Node.js, MySQL" },
-      { label: "Focus Themes", value: "Growth, Technical Expertise, Continuous Learning" },
-    ]
-  },
+about: {
+  story: [
+    "I am a passionate Full Stack Web Developer and a Computer Science student at the Faculty of Computers and Information, and a graduate of the Applied Technology Diploma at WE School for Applied Technology.",
+    "My journey is driven by a deep curiosity for how things work under the hood. From building scalable backend architectures with Laravel and Node.js to crafting precise, responsive user interfaces with React, I thrive at the intersection of design and logic.",
+    "With hands-on experience in telecommunications infrastructure and entrepreneurship, I bring a holistic problem-solving mindset to every technical challenge. I am committed to continuous learning, growth, and building tools that make a meaningful impact."
+  ],
+  details: [
+    { label: "Name", value: "Ahmed Hossam" },
+    { label: "University", value: "Faculty of Computers and Information, Computer Science" },
+    { label: "Diploma", value: "Applied Technology, Full-Stack Web Development (Graduate)" },
+    { label: "School", value: "WE School for Applied Technology" },
+    { label: "Curriculum", value: "HTML, CSS, JS, React, PHP, Laravel, Node.js, MySQL" },
+    { label: "Focus Themes", value: "Growth, Technical Expertise, Continuous Learning" },
+  ]
+},
   skills: {
     featured: ["React.js", "Laravel", "Node.js", "JavaScript", "MySQL"],
     categories: [
@@ -96,6 +97,31 @@ export const portfolioConfig = {
   liveDemo: "https://mizan-phi-nine.vercel.app/",
   image: "/images/project-placeholder-1.png"
 },
+  
+{
+  id: "terramatch",
+  title: "TerraMatch",
+  description: "An evidence-led planetary research platform for exploring Earth analog environments, discovering candidate locations, and comparing scientific evidence to support Mars and Moon analog research.",
+  problem: "Finding suitable Earth environments for planetary analog research is challenging because relevant scientific datasets are distributed across different sources, use different scales and methods, and have limitations that make direct comparisons difficult.",
+  solution: "Built a research platform that brings together planetary and Earth-based datasets into a unified workflow. Researchers can explore reference locations, discover candidate areas, inspect scientific evidence and data sources, and compare locations while keeping dataset limitations and evidence traceable.",
+  techStack: ["Next.js", "React", "TypeScript", "JavaScript", "Tailwind CSS", "NASA POWER API", "MOLA", "LOLA", "USGS 3DEP", "MapLibre"],
+  keyFeatures: [
+    "Interactive exploration of Earth analog locations",
+    "Candidate location discovery using available scientific datasets",
+    "Scientific evidence inspection with source traceability",
+    "Comparison of up to 3 locations",
+    "Mars and Moon elevation data exploration",
+    "Climate data integration through NASA POWER",
+    "Results and search history saved locally",
+    "PDF and Excel report exports",
+    "GeoJSON export for geographic data",
+    "Responsive interface with interactive maps"
+  ],
+  githubLink: "https://github.com/ahmed-hossaam/terramatch",
+  liveDemo: "https://terramatch-blue.vercel.app/",
+  image: "/images/terramatch.png"
+},
+
        {
       id: "moshafak",
       title: "Moshafak",
